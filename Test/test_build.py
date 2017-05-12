@@ -8,6 +8,7 @@ class TestBuild(TestCase):
 #check if second parameter is word only
 #check check if both parameter are same
 #check if both parameter are same but swap
+#check if both parameter have different letter
 
     def test_check_if_the_strings_or_parameter_are_added_or_not(self):
        try:
