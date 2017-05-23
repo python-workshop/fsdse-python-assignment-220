@@ -1,8 +1,6 @@
-def build(ransom_note, magazine):
+def match_note_to_magazine(ransom_note, magazine):
     if ransom_note is None or magazine is None:
-       return False
-    if ransom_note == "" or magazine == "":
-        return False
+        raise TypeError('ransom_note or magazine cannot be None')
     seen_chars = {}
     for char in magazine:
         if char in seen_chars:

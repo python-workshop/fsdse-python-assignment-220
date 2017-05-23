@@ -1,5 +1,6 @@
 # Given a magazine, see if a ransom note could have been written using the letters in the magazine.
-### Constraints
+
+## Constraints
 
 * Is this case sensitive?
   * Yes
